@@ -1,6 +1,6 @@
 'use strict';
 const http = require('http');
-const jade = require('pug');
+const jade = require('jade');
 const auth = require('http-auth');
 const basic = auth.basic(
   { realm: 'Enter username and password.' },
